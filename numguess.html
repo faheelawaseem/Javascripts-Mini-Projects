@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // Implement a number guessing game where the computer generates a random number of range from 1-10, and the user has to guess it.
+
+        let n = Math.ceil(Math.random() * 10)
+        console.log(n);
+        let guess = prompt("Guess a Number")
+        if (n == guess) console.log("Correct guess");
+        else console.log("Wrong guess");
+    </script>
+</body>
+
+</html>
